@@ -9,11 +9,23 @@
 ![License](https://img.shields.io/github/license/smallcloudai/refact-vscode)
 
 ## Refact.ai Open Source, Customizable AI Coding Assistant
-Refact.ai is an open-source AI coding assistant that boosts developer's productivity. It's suitable for both individual and enterprise use, supporting 25+ programming languages including Python, Javascript, Java, Rust, Typescript, PHP, Java, C++, C#, Go and more.
+Refact.ai is an open-source AI coding assistant that boosts developer's productivity. It's suitable for both individual and enterprise use, supporting 25+ programming languages including Python, Javascript, Java, Rust, Typescript, PHP, Java, C++, C#, Go and more. 
+
+## Features:
+- Access to 20+ LLMs: Leverage powerful language models, including GPT-4, Refact/1.6B, Code Llama, StarCoder2, Mistral, Mixtral, and more. Some models offer the ability to fine-tune for specialized needs.
+
+- CodeLens Integration: As you write code, you can instantly call a chat to find bugs or ask for an explanation of any code snippet.
+  
+- Context Menu: Use the Toolbox directly from the context menu for faster interaction while coding.
+  
+- FIM Debug Page: Access debugging tools and insights through the FIM debug page for improved troubleshooting.
+  
+- Upload Images within Your IDE : Save time with our new in-IDE image upload feature—seamlessly integrated for your convenience. Easily upload one or multiple images to streamline your workflow
+
 
 Download the extension for VS Code from [here](https://marketplace.visualstudio.com/items?itemName=smallcloud.codify).
 
-Simplify your coding experience with Refact.ai's functions:
+## Simplify your coding experience with Refact.ai's functions:
 
 - **Code-completion:** helps you write code faster. It looks up and down from the cursor position in the current file, as well as other files in your project for context. After fine-tuning (available in Self-Hosting and Enterprise versions) a code completion model will provide you with more relevant suggestions: it can memorize your coding style, the right way to use your internal APIs, and the tech stack you use.
 - **AI Toolbox:** helps explain, refactor your code, write documentation, find bugs, you can ask in natural language to generate new code for you. The Toolbox is customizable, you can create your own commands.
