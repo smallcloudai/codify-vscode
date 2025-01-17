@@ -874,6 +874,9 @@ export class PanelWebview implements vscode.WebviewViewProvider {
             features: {
                 vecdb,
                 ast,
+                images: true,
+                statistics: true,
+                knowledge: false,
             },
             keyBindings: {
                 completeManual,
